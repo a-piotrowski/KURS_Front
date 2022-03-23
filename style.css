@@ -1,0 +1,61 @@
+body{
+    background-color: gray;
+    margin:0;
+}
+h1{
+    font-size: 40px;
+    color:antiquewhite;
+    
+}
+/* bezpośrednie dziecko body */
+body >header{
+    border: 2px solid rgba(256,256,1,0.6)
+    text-align: center;
+    
+    background-color: rgba(256,256,1,0.3);
+    padding: 10px;
+    
+  
+}
+/* Nawigacja */
+
+
+nav ul{
+    border: 5px dashed bisque;
+    /* punktowanie list */
+    list-style-type: none;
+    padding: 0;
+    height: 150px;
+
+}
+
+/* display flex */
+
+nav ul{
+    display: flex;
+    justify-content: space-evenly;
+
+    /* justify-content: ustawianie elementów poziomie
+    flex-start: wartość domyślna
+    flex-end: wyświetl na końcu 
+    center: wyśrodkuj
+    space-around - taka sama przestrzeń wokół każdego dziecka
+    space-evenly: taka sama przestrzeń między elementami 
+    space-between: przestrzenie pomiędzy elemenatmi, ale między elementem a ganicą przestrzeni nie ma  */
+
+    align-items: center;
+
+    /* pozycjonuje elementy w pionie */
+flex-direction:row;
+/* do kopania flexa zamiana roł między justify-content a align-items */
+}
+
+/* Pojedyncze przyciski */
+
+nav ul li{
+    border: 2px solid burlywood;
+    font-size: 20px;
+   
+
+}
+
