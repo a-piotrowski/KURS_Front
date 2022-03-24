@@ -1,6 +1,11 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: gray;
     margin:0;
+    font-family:'Lato', Courier, monospace;
 }
 h1{
     font-size: 40px;
@@ -9,7 +14,7 @@ h1{
 }
 /* bezpośrednie dziecko body */
 body >header{
-    border: 2px solid rgba(256,256,1,0.6)
+    
     text-align: center;
     
     background-color: rgba(256,256,1,0.3);
@@ -19,15 +24,19 @@ body >header{
   
 }
 /* Nawigacja */
-
+nav {
+    position: sticky;
+    top: 0;
+}
 
 nav ul{
-    border: 5px dashed bisque;
+   
     /* punktowanie list */
     list-style-type: none;
     padding: 0;
-    height: 150px;
+    height: 100px;
     border-top:none;
+    background-color: rgba(23, 85, 23, 0.8);
 
 }
 
@@ -36,6 +45,7 @@ nav ul{
 nav ul{
     display: flex;
     justify-content: space-evenly;
+  
 
     /* justify-content: ustawianie elementów poziomie
     flex-start: wartość domyślna
@@ -84,6 +94,29 @@ nav ul li:active{
     transition: none;
     color: rgba(23, 85, 23, 0.5);
    
+}
+.cookies{
+
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    bottom: 0;
+   
+   
+    background-color: rgba(23, 85, 23, 0.5);
+    width: 100%;
+   padding: 0 5px;
+    
+
+}
+
+
+
+button{
+    background-color: rgb(8, 59, 8);
+   
+
+
 }
 
 
