@@ -14,6 +14,7 @@ body >header{
     
     background-color: rgba(256,256,1,0.3);
     padding: 10px;
+   
     
   
 }
@@ -26,6 +27,7 @@ nav ul{
     list-style-type: none;
     padding: 0;
     height: 150px;
+    border-top:none;
 
 }
 
@@ -47,7 +49,7 @@ nav ul{
 
     /* pozycjonuje elementy w pionie */
 flex-direction:row;
-/* do kopania flexa zamiana roł między justify-content a align-items */
+/* do kopania flexa zamiana rol między justify-content a align-items */
 }
 
 /* Pojedyncze przyciski */
@@ -55,7 +57,34 @@ flex-direction:row;
 nav ul li{
     border: 2px solid burlywood;
     font-size: 20px;
+    padding: 10px 30px;
+    margin: 5px;
+    background-color: rgba(26, 143, 42, 0.6);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 1s; 
    
 
 }
+/* styl po najechaniu */
+nav ul li:hover{
+    border: 2px solid burlywood;
+    font-size: 20px;
+    padding: 10px 30px;
+    margin: 5px;
+    background-color: rgba(256, 256, 1, 0.7);
+    border-radius: 5px;
+    cursor: pointer;   
+   
+}
+
+/* styl elementu po kliknięciu */
+nav ul li:active{
+    border: 2px solid rgb(63, 37, 3);
+    transition: none;
+    color: rgba(23, 85, 23, 0.5);
+   
+}
+
+
 
