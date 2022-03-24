@@ -37,6 +37,7 @@ nav ul{
     height: 100px;
     border-top:none;
     background-color: rgba(23, 85, 23, 0.8);
+    margin: 0;
 
 }
 
@@ -98,14 +99,14 @@ nav ul li:active{
 .cookies{
 
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     position: fixed;
     bottom: 0;
    
    
-    background-color: rgba(23, 85, 23, 0.5);
+    background-color: rgba(23, 85, 23, 0.2);
     width: 100%;
-   padding: 0 5px;
+   padding: 30px;
     
 
 }
@@ -114,9 +115,9 @@ nav ul li:active{
 
 button{
     background-color: rgb(8, 59, 8);
-   
-
-
+    color:beige;
+    font-size: 15px;
+border-radius: 10%;
 }
 
 
