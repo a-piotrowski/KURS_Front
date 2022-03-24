@@ -1,4 +1,4 @@
-*{
+* {
     box-sizing: border-box;
 }
 
@@ -8,8 +8,9 @@ body{
     font-family:'Lato', Courier, monospace;
 }
 h1{
-    font-size: 40px;
+    font-size: 70px;
     color:antiquewhite;
+    font-family: amatic;
     
 }
 /* bezpośrednie dziecko body */
@@ -63,6 +64,8 @@ flex-direction:row;
 /* do kopania flexa zamiana rol między justify-content a align-items */
 }
 
+
+
 /* Pojedyncze przyciski */
 
 nav ul li{
@@ -105,7 +108,7 @@ nav ul li:active{
    
     background-color: rgba(23, 85, 23, 0.2);
     width: 100%;
-   padding: 30px;
+   padding: 5px;
     
 
 }
@@ -121,6 +124,11 @@ position: absolute;
 right:0;
 padding: 10px;
 
+}
+
+button:hover{
+    background-color: aqua;
+    color: black;
 }
 
 
