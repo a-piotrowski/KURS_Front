@@ -137,7 +137,7 @@ main{
 }
 
 main>header{
-    border: 2em groove rgb(69, 163, 14);
+    border: 2px groove rgb(69, 163, 14);
 }
 
 .imgField{
