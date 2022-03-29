@@ -9,3 +9,19 @@ Wysyłanie na github
  - wejd w ustawienia swojego repozytorium 
  - z lewej nawigacji wybierz PAGES 
  - zmieñ none na master/main i zapisz 
+
+
+
+____________________________________________________
+
+Jednostki CSS
+
+ABSOLUTNE: 
+sztywne ramy ustawione na jakaś szer i wys i to się nie zmienia. 
+
+px
+cm
+
+
+
+RELATYWNE
