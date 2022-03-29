@@ -116,9 +116,9 @@ nav ul li:active{
 
 
 button{
-    background-color: rgb(8, 59, 8);
-    color:beige;
-    font-size: 15px;
+background-color: rgb(8, 59, 8);
+color:beige;
+font-size: 15px;
 border-radius: 10%;
 position: absolute;
 right:0;
@@ -129,6 +129,58 @@ padding: 10px;
 button:hover{
     background-color: aqua;
     color: black;
+}
+
+main{
+    /* border: 10px solid rgb(69, 163, 14); */
+    padding: 2em;
+}
+
+main>header{
+    border: 2em groove rgb(69, 163, 14);
+}
+
+.imgField{
+    /* border: 5px solid rgb(3, 49, 3); */
+    text-align: center;
+}
+
+.headerText{
+    /* border: 5px solid rgb(125, 207, 125); */
+    padding: 0 2em 1em 2em;
+   
+}
+
+
+img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+
+.tableField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media(min-width:768px){
+
+main>header, main>article{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+}
+.imgField{
+    max-width:200px;
+    padding: 20px;
+}
+
+.tableField{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 }
 
 
