@@ -231,7 +231,44 @@ footer{
     padding: .5em 1.5em;
     text-align: center;
     background-color: rgba(256,256,1,0.3);
+
 }
+
+
+/* KARUZELA _____________________________________________ */
+
+
+.carusela{
+display: flex;
+    /* border: 2px solid red; */
+    align-items: ;
+
+}
+
+.cItem{
+
+    /* border: 2px solid greenyellow; */
+    flex:1;
+    padding: 0 .5em;
+}
+
+.cItem p{
+    display:none;
+}
+.active{
+    /* border: 5px solid yellow; */
+    flex:3;
+
+    box-shadow: 10px 0 25px rgb(22, 204, 46);
+}
+
+.active p{
+    display: block;
+    
+}
+
+
+
 
 /* ------------------------media------------------- */
 
@@ -241,7 +278,8 @@ footer{
 
 main>header, 
 main>article,
-#kontakt{
+#kontakt, 
+#projekty{
     display: flex;
     align-items: flex-start;
     justify-content: center;
@@ -249,7 +287,8 @@ main>article,
 
 main>header >*,
 main>article >*,
-#kontakt >*{
+#kontakt >*,
+#projekty>*{
     flex:1;
 }
 
