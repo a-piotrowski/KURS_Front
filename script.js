@@ -50,3 +50,14 @@ allCItems.forEach( cItem => {
     cItem.classList.add("active")
   }
 })
+
+
+
+// cookies
+
+
+document.querySelector(".cookies button").onclick = e =>{
+    e.target.parentElement.remove();
+}
+
+
